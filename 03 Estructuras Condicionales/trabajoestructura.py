@@ -2,12 +2,12 @@ import random
 from statistics import mean, median, mode
 
 # PUNTO 1
-edad = input("Ingrese su edad")
+edad = int(input("Ingrese su edad"))
 if edad > 18:
     print("Es mayor de edad")
 
 # PUNTO 2
-nota = input("Ingrese su nota")
+nota = int(input("Ingrese su nota"))
 if nota >= 6:
     print("Aprobado")
 else:
@@ -21,7 +21,7 @@ else:
     print("Por favor,ingrese un numero par")
 
 # PUNTO 4
-edad2 = input("Ingrese su edad")
+edad2 = int(input("Ingrese su edad"))
 if edad2 < 12:
     print("Niño/a")
 elif edad2 >= 12 and edad2 < 18:
@@ -78,7 +78,7 @@ else:
 
 # PUNTO 9
 
-magnitudTerre = int(input("Ingrese la magnitud de su terreno"))
+magnitudTerre = int(input("Ingrese la magnitud del terremoto"))
 
 if magnitudTerre < 3:
     print("Muy leve")
